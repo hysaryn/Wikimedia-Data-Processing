@@ -1,6 +1,7 @@
 package net.javaguides.springboot;
 
 import org.apache.kafka.clients.admin.NewTopic;
+import org.apache.kafka.common.internals.Topic;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.config.TopicBuilder;
@@ -9,9 +10,8 @@ import org.springframework.kafka.config.TopicBuilder;
 public class KafkaTopicConfig {
 
   @Bean
-  public NewTopic topic() {
+  public NewTopic topic(){
     return TopicBuilder.name("wikimedia_recentchange")
         .build();
   }
-
 }

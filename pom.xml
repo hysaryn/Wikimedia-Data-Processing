@@ -14,7 +14,7 @@
 	<name>springboot-kafka-real-world-project</name>
 	<description>Demo project for Spring Boot and Kafka</description>
 	<modules>
-		<module>kafka-producer-wikimedia</module>
+		<module>kafka_producer_wikimedia</module>
 	</modules>
 	<packaging>pom</packaging>
 	<properties>
@@ -29,7 +29,6 @@
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
