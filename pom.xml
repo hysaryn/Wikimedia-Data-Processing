@@ -15,6 +15,7 @@
 	<description>Demo project for Spring Boot and Kafka</description>
 	<modules>
 		<module>kafka_producer_wikimedia</module>
+		<module>kafka_consumer_database</module>
 	</modules>
 	<packaging>pom</packaging>
 	<properties>
